@@ -1,0 +1,330 @@
+@media (max-width: 1000px) {
+  html {
+    height: 100%;
+    background: rgb(51, 51, 51);
+  }
+  .scroll-animations-example {
+    display: none;
+  }
+  .handy_version .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+  }
+  .handy_version .menu p {
+    font-size: 20px;
+    color: #f39c12;
+    flex: 0 0 auto;
+    margin: 10px;
+  }
+  .handy_version .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .handy_version .logo h1 {
+    font-size: 80px;
+    color: #ecf0f1;
+    margin: 6px;
+  }
+  .handy_version .mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .handy_version .mission p {
+    font-size: 100px;
+    color: #f39c12;
+    margin: 20px;
+  }
+}
+@media (min-width: 1000px) {
+  html {
+    height: 100%;
+    background: rgb(51, 51, 51);
+  }
+  body {
+    height: 100%;
+    background: rgb(51, 51, 51);
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  .handy_version {
+    display: none;
+  }
+  .scroll-animations-example > .scrollsection {
+    padding: 10vh 10vh 10vh 10vmax;
+    min-width: 14000px;
+  }
+  .logo {
+    color: #ecf0f1;
+    width: 500px;
+    font-family: "Abril Fatface", cursive;
+    letter-spacing: 7px;
+    position: relative;
+    left: 100px;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    margin-top: 25vw;
+  }
+  .logo1 h1 {
+    position: absolute;
+    font-size: 3vw;
+  }
+  .logo2 h1 {
+    position: absolute;
+    font-size: 2vw;
+    margin-top: 100px;
+  }
+  .mission {
+    font-size: 16vw;
+    color: #f39c12;
+    text-transform: uppercase;
+    font-family: "Playfair Display", serif;
+    z-index: 2;
+    position: relative;
+    left: 100vh;
+  }
+  .line1 {
+    height: 300px;
+    position: absolute;
+    top: -56vw;
+    left: 70vh;
+  }
+  .line2 {
+    height: 300px;
+    position: absolute;
+    top: -40vw;
+    left: 80vh;
+  }
+  .line3 {
+    height: 300px;
+    position: absolute;
+    top: -24vw;
+    left: 100vh;
+  }
+  .menu {
+    color: #ecf0f1;
+    display: flex;
+    width: 100px;
+    align-items: flex-end;
+    flex-direction: column;
+    font-family: "Playfair Display", serif;
+    text-transform: lowercase;
+    font-size: 12px;
+    position: relative;
+    top: -45px;
+  }
+  .menu p {
+    margin: 10px;
+  }
+  .photo1 {
+    width: 300px;
+    transform: scale(1.3);
+    position: relative;
+    left: 1900px;
+    top: -40vw;
+    z-index: 1;
+    margin: 0;
+  }
+  .aboutme {
+    font-family: "Playfair Display", serif;
+    width: 600px;
+    z-index: 4;
+    position: relative;
+    color: #ecf0f1;
+    text-align: justify;
+    margin-top: 1vh;
+    top: -1300px;
+    left: 3300px;
+    font-size: 20px;
+    overflow-x: hidden;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+  }
+  .profil_photo {
+    transform: scale(0.15);
+    width: 300px;
+    position: relative;
+    left: 3570px;
+    top: -2100px;
+    z-index: 5;
+    margin: 0;
+  }
+  .photos {
+    position: relative;
+    top: -30px;
+  }
+  .photos .photo2 {
+    transform: scale(0.4);
+    width: 300px;
+    position: relative;
+    left: 4970px;
+    top: -3830px;
+    z-index: 5;
+  }
+  .photos .photo3 {
+    transform: scale(1.6);
+    width: 400px;
+    position: relative;
+    left: 4170px;
+    top: -3600px;
+    z-index: 3;
+  }
+  .photos .photo4 {
+    transform: scale(0.5);
+    width: 400px;
+    position: relative;
+    left: 4620px;
+    top: -3380px;
+    z-index: 3;
+  }
+  .photos .photo5 {
+    transform: scale(4);
+    width: 900px;
+    position: relative;
+    left: 4820px;
+    top: -3540px;
+    z-index: 2;
+  }
+  .photos .photo6 {
+    transform: scale(0.3);
+    width: 300px;
+    position: relative;
+    left: 4620px;
+    top: -3520px;
+    z-index: 3;
+  }
+  .photos .photo7 {
+    transform: scale(0.3);
+    width: 300px;
+    position: relative;
+    left: 4820px;
+    top: -3720px;
+    z-index: 3;
+  }
+  .photos .photo8 {
+    transform: scale(2);
+    width: 300px;
+    position: relative;
+    left: 5420px;
+    top: -3720px;
+    z-index: 3;
+    margin: 0;
+  }
+  .photos .photo9 {
+    transform: scale(2);
+    width: 300px;
+    position: relative;
+    left: 4620px;
+    top: -3520px;
+    z-index: 2;
+    margin: 0;
+  }
+  .photos .photo10 {
+    transform: scale(3);
+    width: 300px;
+    position: relative;
+    left: 5450px;
+    top: -3720px;
+    z-index: 3;
+    margin: 0;
+  }
+  .photos .photo11 {
+    transform: scale(3);
+    width: 300px;
+    position: relative;
+    left: 5520px;
+    top: -3520px;
+    z-index: 3;
+    margin: 0;
+  }
+  .photos .photo12 {
+    transform: scale(2);
+    width: 400px;
+    position: relative;
+    left: 5820px;
+    top: -3530px;
+    z-index: 3;
+    margin: 0;
+  }
+  .photos .photo13 {
+    transform: scale(1.5);
+    width: 300px;
+    position: relative;
+    left: 6070px;
+    top: -3600px;
+    z-index: 3;
+    margin: 0;
+  }
+  .photos .photo14 {
+    transform: scale(1.5);
+    width: 300px;
+    position: relative;
+    left: 6070px;
+    top: -3550px;
+    z-index: 3;
+    margin: 0;
+  }
+  .photos .photo15 {
+    transform: scale(2);
+    width: 700px;
+    position: relative;
+    left: 6220px;
+    top: -3550px;
+    z-index: 2;
+    margin: 0;
+  }
+  .photos .photo16 {
+    transform: scale(2);
+    width: 400px;
+    position: relative;
+    left: 6450px;
+    top: -3550px;
+    z-index: 6;
+    margin: 0;
+  }
+  .photos .photo17 {
+    transform: scale(2);
+    width: 400px;
+    position: relative;
+    left: 6720px;
+    top: -3530px;
+    z-index: 2;
+    margin: 0;
+  }
+  .footer {
+    width: 2000px;
+    height: 7000px;
+    background: linear-gradient(to right, #434343 0%, black 100%);
+    position: relative;
+    top: -8000px;
+    left: 13100px;
+    color: #f39c12;
+    font-family: "Playfair Display", serif;
+  }
+  .email {
+    font-size: 30px;
+    position: absolute;
+    z-index: 3;
+    top: 3900px;
+    margin-left: 30px;
+    z-index: 1;
+  }
+  .telefon {
+    font-size: 30px;
+    position: absolute;
+    z-index: 3;
+    top: 4000px;
+    margin-left: 30px;
+    z-index: 1;
+  }
+}/*# sourceMappingURL=style.css.map */

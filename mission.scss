@@ -1,0 +1,32 @@
+
+  .mission {
+    font-size: 16vw;
+    color: $color2;
+    text-transform: uppercase;
+    font-family: "Playfair Display", serif;
+    z-index: 2;
+    position: relative;
+    left: 100vh;
+  }
+  
+  .line1 {
+    height: 300px;
+    position: absolute;
+    top: -56vw;
+    left: 70vh;
+  }
+  
+  .line2 {
+    height: 300px;
+    position: absolute;
+    top: -40vw;
+    left: 80vh;
+  }
+  
+  .line3 {
+    height: 300px;
+    position: absolute;
+    top: -24vw;
+    left: 100vh;
+  }
+  

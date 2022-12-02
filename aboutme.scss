@@ -1,0 +1,30 @@
+
+  .aboutme {
+    font-family: "Playfair Display", serif;
+    width: 600px;
+    z-index: 4;
+    position: relative;
+    color: $color1;
+    text-align: justify;
+    margin-top: 1vh;
+    top: -1300px;
+    left: 3300px;
+    font-size: 20px;
+    overflow-x: hidden;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  .profil_photo {
+    transform: scale(0.15);
+    width: 300px;
+    position: relative;
+    left: 3570px;
+    top: -2100px;
+    z-index: 5;
+    margin: 0;
+  }
+  

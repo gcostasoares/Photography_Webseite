@@ -1,0 +1,23 @@
+
+  .logo {
+    color: $color1;
+    width: 500px;
+    font-family: "Abril Fatface", cursive;
+    letter-spacing: 7px;
+    position: relative;
+    left: 100px;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    margin-top: 25vw;
+  }
+  
+  .logo1 h1 {
+    position: absolute;
+    font-size: 3vw;
+  }
+  
+  .logo2 h1 {
+    position: absolute;
+    font-size: 2vw;
+    margin-top: 100px;
+  }
