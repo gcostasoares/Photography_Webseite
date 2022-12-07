@@ -31,6 +31,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    flex-direction: column;
     padding-left: 10%;
   }
   .handy_version .logo h1 {
