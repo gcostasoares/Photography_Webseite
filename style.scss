@@ -2,20 +2,22 @@ $color1: #ecf0f1;
 $color2: #f39c12;
 $color3: rgb(51, 51, 51);
 
- 
+html {
+  height: 100%;
+  background: $color3;
+}
+     
+  body {
+    height: 100%;
+    background: $color3;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
 
   @media (max-width: 1000px){
-    
-    html {
-      height: 100%;
-      background: $color3;
-    }
-         
+      
   
-    .scroll-animations-example {
-      display: none;
-    }
-
     .handy_version {
       .menu {
         display: flex;
@@ -60,25 +62,13 @@ $color3: rgb(51, 51, 51);
     }
 
 
-  @media (min-width: 1000px){
+  @media (min-width: 1001px){
     
-html {
-  height: 100%;
-  background: $color3;
-}
-     
-  body {
-    height: 100%;
-    background: $color3;
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
-  }
-
   
   .handy_version {
     display: none;
   }
+  
   .scroll-animations-example > .scrollsection {
     padding: 10vh 10vh 10vh 10vmax;
     min-width: 14000px;
