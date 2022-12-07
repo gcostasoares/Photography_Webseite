@@ -1,4 +1,4 @@
-
+if (window.matchMedia("(min-width: 1000px)").matches)  {
 class Example {
     constructor(options) {
         this.root = options.root;
@@ -8,7 +8,7 @@ class Example {
         setTimeout(this.showImages.bind(this), 1000);
     }
 
-  
+    if
     init() {
         this.scroll = new LocomotiveScroll({
             el: this.root,
@@ -56,3 +56,5 @@ window.addEventListener('DOMContentLoaded', (event) => {
         root: document.querySelector('.scroll-animations-example')
     });
 });
+
+}
