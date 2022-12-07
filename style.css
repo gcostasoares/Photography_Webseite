@@ -1,8 +1,16 @@
+html {
+  height: 100%;
+  background: rgb(51, 51, 51);
+}
+
+body {
+  height: 100%;
+  background: rgb(51, 51, 51);
+  padding: 0;
+  margin: 0;
+}
+
 @media (max-width: 1000px) {
-  html {
-    height: 100%;
-    background: rgb(51, 51, 51);
-  }
   .scroll-animations-example {
     display: none;
   }
@@ -22,37 +30,74 @@
   .handy_version .logo {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
+    padding-left: 10%;
   }
   .handy_version .logo h1 {
+    color: #ecf0f1;
+    font-family: "Abril Fatface", cursive;
+    text-align: left;
+    font-weight: 100;
+    letter-spacing: 13px;
     font-size: 80px;
     color: #ecf0f1;
-    margin: 6px;
+    margin: 2px;
   }
   .handy_version .mission {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-size: 100px;
+    color: #f39c12;
+    text-transform: uppercase;
+    font-family: "Playfair Display", serif;
   }
   .handy_version .mission p {
     font-size: 100px;
     color: #f39c12;
     margin: 20px;
   }
-}
-@media (min-width: 1000px) {
-  html {
-    height: 100%;
-    background: rgb(51, 51, 51);
+  .handy_version .aboutme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+  .handy_version .aboutme .text {
+    width: 80%;
+    font-family: "Playfair Display", serif;
+    color: #ecf0f1;
+    text-align: justify;
+    font-size: 20px;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+  }
+  .handy_version .profil_photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .handy_version .profil_photo .profil {
+    padding-left: 20%;
+    width: 30%;
+  }
+  .handy_version .photos_for_mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .handy_version .photos_for_mobile img {
+    margin: 80px;
+    width: 80%;
+  }
+}
+@media (min-width: 1001px) {
   body {
-    height: 100%;
-    background: rgb(51, 51, 51);
     overflow: hidden;
-    padding: 0;
-    margin: 0;
   }
   .handy_version {
     display: none;

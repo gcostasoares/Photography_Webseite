@@ -10,14 +10,16 @@ html {
   body {
     height: 100%;
     background: $color3;
-    overflow: hidden;
+    
     padding: 0;
     margin: 0;
   }
 
   @media (max-width: 1000px){
       
-  
+    .scroll-animations-example {
+    display: none;
+    }
     .handy_version {
       .menu {
         display: flex;
@@ -37,12 +39,19 @@ html {
         .logo {
           display: flex;
           justify-content: center;
-          align-items: center;
+          align-items:flex-start;
           flex-direction: column;
+          padding-left: 10%;
+          
           h1 {
+            color: $color1;
+            font-family: "Abril Fatface", cursive;
+            text-align: left;
+            font-weight: 100;
+            letter-spacing: 13px;
             font-size: 80px;
             color:#ecf0f1;
-            margin: 6px;
+            margin: 2px;
           }
         }
 
@@ -51,6 +60,10 @@ html {
           justify-content: center;
           align-items: center;
           flex-direction: column;
+          font-size: 100px;
+          color: $color2;
+          text-transform: uppercase;
+          font-family: "Playfair Display", serif;
           p{
             font-size: 100px;
             color: #f39c12;
@@ -58,12 +71,55 @@ html {
           }
         }
 
+        .aboutme {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        .text {
+          width: 80%;
+          font-family: "Playfair Display", serif;
+          color: $color1;
+          text-align: justify;
+          font-size: 20px;
+          white-space: pre-wrap;
+          white-space: -moz-pre-wrap;
+          white-space: -pre-wrap;
+          white-space: -o-pre-wrap;
+          word-wrap: break-word;
+        }
       }
-    }
+
+      .profil_photo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .profil{
+        padding-left: 20%;
+        width: 30%;
+        }
+      }
+
+        .photos_for_mobile {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          img {
+            margin: 80px;
+            width: 80%;
+          }
+          }
+        }
+
+      }
+    
 
 
   @media (min-width: 1001px){
-    
+  
+    body {
+      overflow: hidden;
+    }
   
   .handy_version {
     display: none;
