@@ -1,0 +1,24 @@
+{
+  "name": "horitonzale-webseite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcostasoares/https---github.com-gcostasoares-Photography.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gcostasoares/https---github.com-gcostasoares-Photography/issues"
+  },
+  "homepage": "https://github.com/gcostasoares/https---github.com-gcostasoares-Photography#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
